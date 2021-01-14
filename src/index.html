@@ -7,7 +7,7 @@
     <title>test webpack</title>
 
     <!-- Don't forget to delete this style tag. -->
-    <style>
+    <!-- <style>
       body {
         min-height: 100vh;
         margin: 0;
@@ -31,16 +31,22 @@
         max-width: 100%;
         height: auto;
       }
-    </style>
+    </style> -->
     <!-- <link rel="stylesheet" href="dist/basicLightbox.min.css" /> -->
   </head>
 
   <body>
+    <button type="button" data-open-modal>Open</button>
     <article class="intro">
       <h1>Webpack starter kit</h1>
-
+      <template id="modal">
+        <div class="modal">
+          <p>ку</p>
+          <button type="button" data-close-modal>close</button>
+        </div>
+      </template>
       <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
+      <!-- <img src="./images/intro.png" alt="" width="640" /> -->
     </article>
     <!-- <script src="dist/basicLightbox.min.js"></script> -->
   </body>
