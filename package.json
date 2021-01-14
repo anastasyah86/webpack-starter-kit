@@ -51,6 +51,8 @@
   "dependencies": {
     "basiclightbox": "^5.0.3",
     "core-js": "^3.6.5",
-    "handlebars": "^4.7.6"
+    "gumshoejs": "^5.1.2",
+    "handlebars": "^4.7.6",
+    "siema": "^1.5.1"
   }
 }
