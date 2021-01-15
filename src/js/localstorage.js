@@ -20,17 +20,20 @@ refs.form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
+  localStorage.removeItem('feedback-message');
   event.currentTarget.reset();
 }
 
 refs.textarea.addEventListener('input', handleTextInput);
 
-const savedMessage = localStorage.getItem('feedback-message');
-if (savedMessage) {
-  refs.textarea.value = savedMessage;
-}
-
 function handleTextInput(event) {
   const message = event.currentTarget.value;
   localStorage.setItem('feedback-message', message);
+}
+
+function popMessage() {
+  const savedMessage = localStorage.getItem('feedback-message');
+  if (savedMessage) {
+    refs.textarea.value = savedMessage;
+  }
 }
