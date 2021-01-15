@@ -5,3 +5,5 @@ import './js/carousel';
 import './js/tippy';
 import './js/localstorage';
 import './js/book';
+import './js/templating';
+import './js/handler';
