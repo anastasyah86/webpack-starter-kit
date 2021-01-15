@@ -6,7 +6,8 @@
         "friends":["Sharron Pace"],
         "isActive":false,
         "balance":2811,
-        "gender":"male"},
+        "gender":"male",
+        "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
     {
         "name":"Sharlene Bush",
         "email":"sharlenebush@tubesys.com",
@@ -14,7 +15,9 @@
         "friends":["Briana Decker","Sharron Pace"],
         "isActive":true,
         "balance":3821,
-        "gender":"female"},
+        "gender":"female",
+            "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
+
     {
         "name":"Ross Vazquez",
         "email":"rossvazquez@xinware.com",
@@ -22,14 +25,19 @@
         "friends":["Marilyn Mcintosh","Padilla Garrison","Naomi Buckner"],
         "isActive":false,
         "balance":3793,
-        "gender":"male"},
+        "gender":"male",
+            "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
+
     {
         "name":"Elma Head",
         "email":"elmahead@omatom.com",
         "eyeColor":"green",
         "friends":["Goldie Gentry","Aisha Tran"],
         "isActive":true,"balance":2278,
-        "gender":"female"},
+        "gender":"female",
+                "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
+
+    
     {
         "name":"Carey Barr",
         "email":"careybarr@nurali.com",
@@ -37,8 +45,10 @@
         "friends":["Jordan Sampson","Eddie Strong","Adrian Cross"],
         "isActive":true,
         "balance":3951,
-        "gender":"male"
-    },
+        "gender":"male",
+                "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
+
+    
     {
         "name":"Blackburn Dotson",
         "email":"blackburndotson@furnigeer.com",
@@ -46,7 +56,9 @@
         "friends":["Jacklyn Lucas","Linda Chapman","Adrian Cross","Solomon Fokes"],
         "isActive":false,
         "balance":1498,
-        "gender":"male"},
+        "gender":"male",
+            "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"},
+
     {
         "name":"Sheree Anthony",
         "email":"shereeanthony@kog.com",
@@ -54,5 +66,7 @@
         "friends":["Goldie Gentry","Briana Decker"],
         "isActive":true,
         "balance":2764,
-        "gender":"female"}
+        "gender":"female",
+            "pic": "https://images.unsplash.com/photo-1610414920179-540e7fd5e2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"}
+
     ]

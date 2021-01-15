@@ -1,5 +1,14 @@
-{{#each items}}
-<li>
-    <a href="#">{{this}}</a>
+{{#each this}}
+<li class="gallery__item">
+    <h2>{{name}}</h2>
+    <p>E-mail: {{email}}</p>
+    <p>Eye color: {{eyeColor}}</p>
+    <p>Friends: {{friends}}</p>
+    {{#if isActive}} <p>Active</p> {{/if}}
+    {{#unless isActive}} <p>Isn't active</p> {{/unless}}
+    <p>Balance: {{balance}} гришек</p>
+    <p>gender: {{gender}}</p>
+    <img src="{{pic}}" alt="Picture of {{name}}" width=" 320">
 </li>
+
 {{/each}}

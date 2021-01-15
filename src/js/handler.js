@@ -1,4 +1,10 @@
 import itemsTemp from '../templates/gallery-items.hbs';
-console.log(itemsTemp);
-const markup = itemsTemp({ items: ['html', 'css', 'js', 'react'] });
+import books from './books.json';
+import '../sass/gallery.scss';
+console.log(books);
+
+const markup = itemsTemp(books);
 console.log(markup);
+
+const galleryRef = document.querySelector('.js-gallery');
+galleryRef.insertAdjacentHTML('beforeend', markup);
