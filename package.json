@@ -54,6 +54,7 @@
     "gumshoejs": "^5.1.2",
     "handlebars": "^4.7.6",
     "pnotify": "^5.2.0",
-    "siema": "^1.5.1"
+    "siema": "^1.5.1",
+    "tippy.js": "^6.2.7"
   }
 }

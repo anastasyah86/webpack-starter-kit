@@ -1,4 +1,5 @@
 import './styles.scss';
 import './js/modal';
 import './js/carousel';
-import './js/nav';
+// import './js/notifications';
+import './js/tippy';
